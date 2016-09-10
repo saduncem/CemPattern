@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LUCA_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="yevmiye">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="F1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HESAP_PLANI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="F12" Type="Boolean" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="LUCA_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="yevmiye" EntityType="Self.yevmiye" />
+  </EntityContainer>
+</Schema>

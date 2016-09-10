@@ -1,0 +1,5 @@
+E:\Cemworkspace\CemPattern\Dal\obj\Release\Dal.csprojResolveAssemblyReference.cache
+E:\Cemworkspace\CemPattern\Dal\bin\Release\Dal.dll
+E:\Cemworkspace\CemPattern\Dal\bin\Release\Dal.pdb
+E:\Cemworkspace\CemPattern\Dal\obj\Release\Dal.dll
+E:\Cemworkspace\CemPattern\Dal\obj\Release\Dal.pdb

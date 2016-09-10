@@ -1,0 +1,17 @@
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\WindowsService1.exe.config
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\WindowsService1.exe
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\WindowsService1.pdb
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.csprojResolveAssemblyReference.cache
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.Service1.resources
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.csproj.GenerateResource.Cache
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.exe
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.pdb
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\WindowsService1.exe.manifest
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\WindowsService1.application
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.ProjectInstaller.resources
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.exe.manifest
+E:\Cemworkspace\CemPattern\WindowsService1\obj\Release\WindowsService1.application
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\EntityFramework.dll
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\EntityFramework.SqlServer.dll
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\EntityFramework.xml
+E:\Cemworkspace\CemPattern\WindowsService1\bin\Release\EntityFramework.SqlServer.xml

@@ -1,0 +1,6 @@
+E:\Cemworkspace\CemPattern\ClassDAL\bin\Release\ClassDAL.dll
+E:\Cemworkspace\CemPattern\ClassDAL\bin\Release\ClassDAL.pdb
+E:\Cemworkspace\CemPattern\ClassDAL\obj\Release\ClassDAL.dll
+E:\Cemworkspace\CemPattern\ClassDAL\obj\Release\ClassDAL.pdb
+E:\Cemworkspace\CemPattern\ClassDAL\bin\Release\ClassDAL.dll.config
+E:\Cemworkspace\CemPattern\ClassDAL\obj\Release\CRUDDAL.csprojResolveAssemblyReference.cache

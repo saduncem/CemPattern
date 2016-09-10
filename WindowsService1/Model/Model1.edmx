@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LUCA_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="edefter">
+          <Key>
+            <PropertyRef Name="DefterID" />
+          </Key>
+          <Property Name="TARİH" Type="nvarchar" MaxLength="255" />
+          <Property Name="MADDE NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="FİŞ NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP KODU" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP ADI" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK TARİHİ" Type="nvarchar" MaxLength="255" />
+          <Property Name="AÇIKLAMA" Type="nvarchar" MaxLength="255" />
+          <Property Name="BORÇ" Type="float" />
+          <Property Name="ALACAK" Type="float" />
+          <Property Name="BAKİYE" Type="float" />
+          <Property Name="B/A" Type="nvarchar" MaxLength="255" />
+          <Property Name="DefterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="LUCA_DBModelStoreContainer">
+          <EntitySet Name="edefter" EntityType="Self.edefter" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LUCA_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="edefter">
+          <Key>
+            <PropertyRef Name="DefterID" />
+          </Key>
+          <Property Name="TARİH" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MADDE_NO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="FİŞ_NO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="HESAP_KODU" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="HESAP_ADI" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EVRAK_NO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EVRAK_TARİHİ" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="AÇIKLAMA" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="BORÇ" Type="Double" />
+          <Property Name="ALACAK" Type="Double" />
+          <Property Name="BAKİYE" Type="Double" />
+          <Property Name="B_A" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DefterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="LUCA_DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="edefter" EntityType="Self.edefter" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LUCA_DBModelStoreContainer" CdmEntityContainer="LUCA_DBEntities">
+          <EntitySetMapping Name="edefter">
+            <EntityTypeMapping TypeName="LUCA_DBModel.edefter">
+              <MappingFragment StoreEntitySet="edefter">
+                <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+                <ScalarProperty Name="MADDE_NO" ColumnName="MADDE NO" />
+                <ScalarProperty Name="FİŞ_NO" ColumnName="FİŞ NO" />
+                <ScalarProperty Name="HESAP_KODU" ColumnName="HESAP KODU" />
+                <ScalarProperty Name="HESAP_ADI" ColumnName="HESAP ADI" />
+                <ScalarProperty Name="EVRAK_NO" ColumnName="EVRAK NO" />
+                <ScalarProperty Name="EVRAK_TARİHİ" ColumnName="EVRAK TARİHİ" />
+                <ScalarProperty Name="AÇIKLAMA" ColumnName="AÇIKLAMA" />
+                <ScalarProperty Name="BORÇ" ColumnName="BORÇ" />
+                <ScalarProperty Name="ALACAK" ColumnName="ALACAK" />
+                <ScalarProperty Name="BAKİYE" ColumnName="BAKİYE" />
+                <ScalarProperty Name="B_A" ColumnName="B/A" />
+                <ScalarProperty Name="DefterID" ColumnName="DefterID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

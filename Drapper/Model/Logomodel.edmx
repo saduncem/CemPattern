@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LUCA_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'LUCA_DB.dbo.edefter' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="edefter">
+          <Property Name="TARİH" Type="nvarchar" MaxLength="255" />
+          <Property Name="MADDE NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="FİŞ NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP KODU" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP ADI" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK TARİHİ" Type="nvarchar" MaxLength="255" />
+          <Property Name="AÇIKLAMA" Type="nvarchar" MaxLength="255" />
+          <Property Name="BORÇ" Type="float" />
+          <Property Name="ALACAK" Type="float" />
+          <Property Name="BAKİYE" Type="float" />
+          <Property Name="B/A" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+        <EntityType Name="yevmiye">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="F1" Type="nvarchar(max)" />
+          <Property Name="F2" Type="nvarchar(max)" />
+          <Property Name="F3" Type="nvarchar(max)" />
+          <Property Name="F4" Type="nvarchar(max)" />
+          <Property Name="F5" Type="nvarchar(max)" />
+          <Property Name="F6" Type="nvarchar(max)" />
+          <Property Name="TL" Type="nvarchar(max)" />
+          <Property Name="F8" Type="nvarchar(max)" />
+          <Property Name="F9" Type="nvarchar(max)" />
+          <Property Name="HESAP PLANI" Type="nvarchar(max)" />
+          <Property Name="F11" Type="nvarchar(max)" />
+          <Property Name="F12" Type="bit" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="LUCA_DBModelStoreContainer">
+          <EntitySet Name="yevmiye" EntityType="Self.yevmiye" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LUCA_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="yevmiye">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="F1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F5" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F6" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F8" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F9" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HESAP_PLANI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F11" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="F12" Type="Boolean" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="LUCA_DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="yevmiye" EntityType="Self.yevmiye" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LUCA_DBModelStoreContainer" CdmEntityContainer="LUCA_DBEntities">
+          <EntitySetMapping Name="yevmiye">
+            <EntityTypeMapping TypeName="LUCA_DBModel.yevmiye">
+              <MappingFragment StoreEntitySet="yevmiye">
+                <ScalarProperty Name="F1" ColumnName="F1" />
+                <ScalarProperty Name="F2" ColumnName="F2" />
+                <ScalarProperty Name="F3" ColumnName="F3" />
+                <ScalarProperty Name="F4" ColumnName="F4" />
+                <ScalarProperty Name="F5" ColumnName="F5" />
+                <ScalarProperty Name="F6" ColumnName="F6" />
+                <ScalarProperty Name="TL" ColumnName="TL" />
+                <ScalarProperty Name="F8" ColumnName="F8" />
+                <ScalarProperty Name="F9" ColumnName="F9" />
+                <ScalarProperty Name="HESAP_PLANI" ColumnName="HESAP PLANI" />
+                <ScalarProperty Name="F11" ColumnName="F11" />
+                <ScalarProperty Name="F12" ColumnName="F12" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

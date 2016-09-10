@@ -1,0 +1,7 @@
+E:\Cemworkspace\CemPattern\Tables\bin\Debug\Tables.dacpac
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\Model.xml
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\refactor.xml
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\postdeploy.sql
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\predeploy.sql
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\Tables.dll
+E:\Cemworkspace\CemPattern\Tables\obj\Debug\Tables.pdb

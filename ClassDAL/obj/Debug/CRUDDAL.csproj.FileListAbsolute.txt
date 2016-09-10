@@ -1,0 +1,4 @@
+E:\Cemworkspace\CemPattern\ClassDAL\bin\Debug\ClassDAL.dll
+E:\Cemworkspace\CemPattern\ClassDAL\bin\Debug\ClassDAL.pdb
+E:\Cemworkspace\CemPattern\ClassDAL\obj\Debug\ClassDAL.dll
+E:\Cemworkspace\CemPattern\ClassDAL\obj\Debug\ClassDAL.pdb

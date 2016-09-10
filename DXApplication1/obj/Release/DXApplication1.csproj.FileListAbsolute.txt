@@ -1,0 +1,8 @@
+E:\Cemworkspace\CemPattern\DXApplication1\bin\Release\DXApplication1.exe
+E:\Cemworkspace\CemPattern\DXApplication1\bin\Release\DXApplication1.pdb
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.csprojResolveAssemblyReference.cache
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.Form1.resources
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.Properties.Resources.resources
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.csproj.GenerateResource.Cache
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.exe
+E:\Cemworkspace\CemPattern\DXApplication1\obj\Release\DXApplication1.pdb

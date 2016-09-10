@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LUCA_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'LUCA_DB.dbo.edefter' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="edefter">
+          <Property Name="TARİH" Type="nvarchar" MaxLength="255" />
+          <Property Name="MADDE NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="FİŞ NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP KODU" Type="nvarchar" MaxLength="255" />
+          <Property Name="HESAP ADI" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK NO" Type="nvarchar" MaxLength="255" />
+          <Property Name="EVRAK TARİHİ" Type="nvarchar" MaxLength="255" />
+          <Property Name="AÇIKLAMA" Type="nvarchar" MaxLength="255" />
+          <Property Name="BORÇ" Type="float" />
+          <Property Name="ALACAK" Type="float" />
+          <Property Name="BAKİYE" Type="float" />
+          <Property Name="B/A" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="yevmiye">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="F1" Type="nvarchar(max)" />
+    <Property Name="F2" Type="nvarchar(max)" />
+    <Property Name="F3" Type="nvarchar(max)" />
+    <Property Name="F4" Type="nvarchar(max)" />
+    <Property Name="F5" Type="nvarchar(max)" />
+    <Property Name="F6" Type="nvarchar(max)" />
+    <Property Name="TL" Type="nvarchar(max)" />
+    <Property Name="F8" Type="nvarchar(max)" />
+    <Property Name="F9" Type="nvarchar(max)" />
+    <Property Name="HESAP PLANI" Type="nvarchar(max)" />
+    <Property Name="F11" Type="nvarchar(max)" />
+    <Property Name="F12" Type="bit" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="LUCA_DBModelStoreContainer">
+    <EntitySet Name="yevmiye" EntityType="Self.yevmiye" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

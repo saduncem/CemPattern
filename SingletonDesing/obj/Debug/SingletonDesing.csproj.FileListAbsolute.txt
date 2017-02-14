@@ -1,0 +1,4 @@
+C:\Cemworkspace\CemPattern\SingletonDesing\bin\Debug\SingletonDesing.dll
+C:\Cemworkspace\CemPattern\SingletonDesing\bin\Debug\SingletonDesing.pdb
+C:\Cemworkspace\CemPattern\SingletonDesing\obj\Debug\SingletonDesing.dll
+C:\Cemworkspace\CemPattern\SingletonDesing\obj\Debug\SingletonDesing.pdb

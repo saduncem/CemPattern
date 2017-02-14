@@ -1,0 +1,6 @@
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Release\RegisterListeng.exe.config
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Release\RegisterListeng.exe
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Release\RegisterListeng.pdb
+C:\Cemworkspace\CemPattern\RegisterListeng\obj\Release\RegisterListeng.csprojResolveAssemblyReference.cache
+C:\Cemworkspace\CemPattern\RegisterListeng\obj\Release\RegisterListeng.exe
+C:\Cemworkspace\CemPattern\RegisterListeng\obj\Release\RegisterListeng.pdb

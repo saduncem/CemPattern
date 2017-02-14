@@ -1,0 +1,4 @@
+C:\Cemworkspace\CemPattern\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.dll
+C:\Cemworkspace\CemPattern\AbstractFactoryPattern\bin\Debug\AbstractFactoryPattern.pdb
+C:\Cemworkspace\CemPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.dll
+C:\Cemworkspace\CemPattern\AbstractFactoryPattern\obj\Debug\AbstractFactoryPattern.pdb

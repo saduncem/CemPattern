@@ -1,0 +1,8 @@
+C:\Cemworkspace\CemPattern\PatternWorkExamples\bin\Debug\PatternWorkExamples.exe.config
+C:\Cemworkspace\CemPattern\PatternWorkExamples\bin\Debug\PatternWorkExamples.exe
+C:\Cemworkspace\CemPattern\PatternWorkExamples\bin\Debug\PatternWorkExamples.pdb
+C:\Cemworkspace\CemPattern\PatternWorkExamples\bin\Debug\SingletonDesing.dll
+C:\Cemworkspace\CemPattern\PatternWorkExamples\bin\Debug\SingletonDesing.pdb
+C:\Cemworkspace\CemPattern\PatternWorkExamples\obj\Debug\PatternWorkExamples.csprojResolveAssemblyReference.cache
+C:\Cemworkspace\CemPattern\PatternWorkExamples\obj\Debug\PatternWorkExamples.exe
+C:\Cemworkspace\CemPattern\PatternWorkExamples\obj\Debug\PatternWorkExamples.pdb

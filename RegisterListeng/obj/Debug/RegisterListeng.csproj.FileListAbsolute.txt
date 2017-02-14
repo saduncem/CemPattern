@@ -1,0 +1,5 @@
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Debug\RegisterListeng.exe.config
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Debug\RegisterListeng.exe
+C:\Cemworkspace\CemPattern\RegisterListeng\bin\Debug\RegisterListeng.pdb
+C:\Cemworkspace\CemPattern\RegisterListeng\obj\Debug\RegisterListeng.exe
+C:\Cemworkspace\CemPattern\RegisterListeng\obj\Debug\RegisterListeng.pdb

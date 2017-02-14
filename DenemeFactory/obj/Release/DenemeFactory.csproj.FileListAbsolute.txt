@@ -1,5 +1,0 @@
-E:\Cemworkspace\CemPattern\DenemeFactory\bin\Release\DenemeFactory.dll
-E:\Cemworkspace\CemPattern\DenemeFactory\bin\Release\DenemeFactory.pdb
-E:\Cemworkspace\CemPattern\DenemeFactory\obj\Release\DenemeFactory.csprojResolveAssemblyReference.cache
-E:\Cemworkspace\CemPattern\DenemeFactory\obj\Release\DenemeFactory.dll
-E:\Cemworkspace\CemPattern\DenemeFactory\obj\Release\DenemeFactory.pdb

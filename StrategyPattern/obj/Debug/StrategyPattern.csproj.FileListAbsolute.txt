@@ -1,0 +1,4 @@
+C:\Cemworkspace\CemPattern\StrategyPattern\bin\Debug\StrategyPattern.dll
+C:\Cemworkspace\CemPattern\StrategyPattern\bin\Debug\StrategyPattern.pdb
+C:\Cemworkspace\CemPattern\StrategyPattern\obj\Debug\StrategyPattern.dll
+C:\Cemworkspace\CemPattern\StrategyPattern\obj\Debug\StrategyPattern.pdb

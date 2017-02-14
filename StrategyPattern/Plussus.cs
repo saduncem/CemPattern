@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    class Plussus : ICalculateInterface
+   public  class Plussus : ICalculateInterface
     {
         public int Calculate(int value1, int value2)
         {

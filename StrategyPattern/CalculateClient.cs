@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    internal class CalculateClient
+    public class CalculateClient
     {
         private ICalculateInterface calculateInterface;
         public CalculateClient(ICalculateInterface strategy)

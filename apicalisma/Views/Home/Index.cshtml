@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    <ul class="list-group">
+        <content>Api Listesi</content>
+        <li class="list-group-item">@Html.ActionLink("Listele","GetProductlist",new { controller = "API" })</li>
+    </ul>
+</div>
